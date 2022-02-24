@@ -1,0 +1,58 @@
+/***********************************
+!     DEFAULT CSS START HERE       !
+***********************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+}
+/***********************************
+!     DEFAULT CSS END HERE         !
+***********************************/
+
+.responsive-test{
+    background-color: red;
+    color: #fff;
+    font-size: 50px;
+}
+@media (max-width: 1000px){
+    .responsive-test{
+        background-color: blue;
+        color: orange;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+    .responsive-test{
+        background-color: rgb(97, 201, 0);
+        color: rgb(163, 65, 255);
+        text-align: center;
+        font-size: 30px;
+    }
+}
+@media (max-width: 295px){
+    .responsive-test{
+        background-color: rgba(3, 20, 247, 0.973);
+        color: rgb(107, 77, 134);
+        text-align: center;
+        font-size: 15px;
+    }
+}
